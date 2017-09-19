@@ -11,6 +11,13 @@ public class Product {
 	private String name;
 	private String height;
 
+	public String getHeight() {
+		return height;
+	}
+
+	public void setHeight(String height) {
+		this.height = height;
+	}
 
 	public String getName() {
 		return name;
