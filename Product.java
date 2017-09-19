@@ -9,6 +9,7 @@ public class Product {
 	@Id
 	private String productId;
 	private String name;
+	private String height;
 
 
 	public String getName() {
