@@ -10,6 +10,15 @@ public class Product {
 	private String productId;
 	private String name;
 	private String height;
+	private String weight;
+
+	public String getWeight() {
+		return weight;
+	}
+
+	public void setWeight(String weight) {
+		this.weight = weight;
+	}
 
 	public String getHeight() {
 		return height;
