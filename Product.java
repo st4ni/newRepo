@@ -11,6 +11,15 @@ public class Product {
 	private String name;
 	private String height;
 	private String weight;
+	private int age;
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
 
 	public String getWeight() {
 		return weight;
